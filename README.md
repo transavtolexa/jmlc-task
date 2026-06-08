@@ -59,10 +59,3 @@ poetry run python -m app.segmenter "куплюайфон14про"
 ```bash
 poetry install
 ```
-
-Если проект переносился из другой папки и старое виртуальное окружение сломалось, пересоздайте его:
-
-```bash
-poetry env remove --all
-poetry install
-```
